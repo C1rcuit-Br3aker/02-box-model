@@ -5,3 +5,13 @@
 *::before, *::after {
   box-sizing: border-box;
 }
+
+.octo-cat {
+  max-width: 25rem;
+  max-height: auto;
+}
+
+div {
+  display: inline-block;
+  margin: 2rem;
+}
