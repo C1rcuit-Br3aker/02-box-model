@@ -7,11 +7,23 @@
 }
 
 .octo-cat {
-  max-width: 25rem;
+  max-width: 20rem;
   max-height: auto;
+  padding: 1rem;
+  border: 1px solid grey;
 }
 
 div {
   display: inline-block;
-  margin: 2rem;
+  margin: 3rem;
 }
+.avatar {
+  max-width: 2rem;
+  max-height: auto;
+  float: right;
+}
+div .center-image {
+  padding: 5rem;
+}
+
+div
