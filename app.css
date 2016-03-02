@@ -18,16 +18,13 @@ div {
   margin: 1rem;
 }
 .avatar {
-  width: 10%;
+  width: 8%;
 }
 
 .cat-number {
   float: left;
   color: #8b8b8b;
-}
-
-.cat-name {
-  float: right;
+  padding: inherit;
 }
 
 p {
@@ -38,6 +35,8 @@ p {
   color: #5a5a5a;
   padding: 5px;
   margin: auto;
+  max-width: 70%;
+  padding: inherit;
 }
 
 .item-caption {
@@ -45,4 +44,10 @@ p {
   display: inline-block;
   border-bottom: 1px solid grey;
   text-align: right;
+  padding: .5rem;
+}
+
+.cat-name {
+  float: right;
+  display: block;
 }
