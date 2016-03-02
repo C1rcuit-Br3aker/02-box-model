@@ -15,16 +15,16 @@ div {
   max-width: 30%;
   max-height: auto;
   display: inline-block;
-  margin: 1rem;
 }
 .avatar {
   width: 8%;
+  vertical-align: text-bottom;
 }
 
 .cat-number {
   float: left;
   color: #8b8b8b;
-  padding: inherit;
+  padding: 1.5rem, -1rem;
 }
 
 p {
@@ -33,10 +33,9 @@ p {
   font-weight: 100;
   font-size: 1rem;
   color: #5a5a5a;
-  padding: 5px;
   margin: auto;
   max-width: 70%;
-  padding: inherit;
+  line-height: 2rem;
 }
 
 .item-caption {
@@ -44,10 +43,9 @@ p {
   display: inline-block;
   border-bottom: 1px solid grey;
   text-align: right;
-  padding: .5rem;
 }
 
 .cat-name {
   float: right;
-  display: block;
+  line-height: 1rem;
 }
