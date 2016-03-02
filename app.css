@@ -11,8 +11,8 @@
   border: 1px solid grey;
 }
 
-div {
-  max-width: 30%;
+.big-pics {
+  max-width: calc(99% / 3);
   max-height: auto;
   display: inline-block;
 }
@@ -43,6 +43,7 @@ p {
   display: inline-block;
   border-bottom: 1px solid grey;
   text-align: right;
+  padding: 1rem;
 }
 
 .cat-name {
