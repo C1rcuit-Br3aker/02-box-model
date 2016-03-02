@@ -18,8 +18,7 @@ div {
   margin: 1rem;
 }
 .avatar {
-  max-width: 2rem;
-  max-height: auto;
+  width: 10%;
 }
 
 .cat-number {
@@ -27,18 +26,23 @@ div {
   color: #8b8b8b;
 }
 
+.cat-name {
+  float: right;
+}
+
 p {
-  display: inline;
   float: right;
   font-family: sans-serif;
   font-weight: 100;
   font-size: 1rem;
   color: #5a5a5a;
-  margin-top: 1rem;
-  border-bottom: 1px solid lightgrey;
+  padding: 5px;
+  margin: auto;
 }
 
 .item-caption {
   width: 90%;
-  border: 1px solid red;
+  display: inline-block;
+  border-bottom: 1px solid grey;
+  text-align: right;
 }
