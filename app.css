@@ -17,33 +17,27 @@
   float: left;
 }
 .avatar {
-  width: 8%;
-  vertical-align: text-bottom;
+  width: 5%;
+  vertical-align: middle;
+  border-radius: 3px;
 }
 
 .cat-number {
   float: left;
   color: #8b8b8b;
   padding: 1.5rem, -1rem;
-}
-
-p {
-  float: right;
-  font-family: sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
-  color: #5a5a5a;
-  margin: auto;
-  max-width: 70%;
-  line-height: 2rem;
+  margin-top: 0;
 }
 
 .item-caption {
   width: 90%;
-  display: inline-block;
   border-bottom: 1px solid grey;
   text-align: right;
-  padding: 1rem;
+  margin-top: 0;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #5a5a5a;
 }
 
 .cat-name {
