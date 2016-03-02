@@ -14,7 +14,7 @@
 .big-pics {
   max-width: calc(99% / 3);
   max-height: auto;
-  display: inline-block;
+  float: left;
 }
 .avatar {
   width: 8%;
