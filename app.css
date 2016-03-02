@@ -7,9 +7,7 @@
 }
 
 .octo-cat {
-  max-width: 25rem;
-  max-height: auto;
-  padding: 1rem;
+  width: 90%;
   border: 1px solid grey;
 }
 
@@ -18,7 +16,6 @@ div {
   max-height: auto;
   display: inline-block;
   margin: 1rem;
-  border-bottom: 1px solid lightgrey;
 }
 .avatar {
   max-width: 2rem;
@@ -27,8 +24,8 @@ div {
 
 .cat-number {
   float: left;
+  color: #8b8b8b;
 }
-
 
 p {
   display: inline;
@@ -36,4 +33,12 @@ p {
   font-family: sans-serif;
   font-weight: 100;
   font-size: 1rem;
+  color: #5a5a5a;
+  margin-top: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+.item-caption {
+  width: 90%;
+  border: 1px solid red;
 }
