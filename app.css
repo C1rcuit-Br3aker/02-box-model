@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin-left: 5%;
+  overflow: auto;
+}
 .octo-cat {
   width: 90%;
   border: 1px solid grey;
@@ -15,6 +19,7 @@
   max-width: calc(99% / 3);
   max-height: auto;
   float: left;
+  margin: auto;
 }
 .avatar {
   width: 5%;
