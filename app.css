@@ -5,3 +5,47 @@
 *::before, *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin-left: 5%;
+  overflow: auto;
+}
+.octo-cat {
+  width: 90%;
+  border: 1px solid grey;
+}
+
+.big-pics {
+  max-width: calc(99% / 3);
+  max-height: auto;
+  float: left;
+  margin: auto;
+}
+.avatar {
+  width: 5%;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+.cat-number {
+  float: left;
+  color: #8b8b8b;
+  padding: 1.5rem, -1rem;
+  margin-top: 0;
+}
+
+.item-caption {
+  width: 90%;
+  border-bottom: 1px solid grey;
+  text-align: right;
+  margin-top: 0;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+
+.cat-name {
+  float: right;
+  line-height: 1rem;
+}
